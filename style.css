@@ -93,3 +93,27 @@
     background-color: rgb(67, 67, 67);
     color: #fff;
   }
+  .card {
+    overflow: hidden;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.2);
+}
+.card img {
+    transition: transform 0.5s ease;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+.btn-custom {
+    transition: all 0.3s ease;
+}
+
+.card:hover .btn-custom {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+}
