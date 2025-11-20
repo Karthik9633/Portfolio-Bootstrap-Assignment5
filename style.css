@@ -9,6 +9,25 @@
   .btn-custom {
     background-color: #016a59;
     color: white;
+    transition: all 0.3s ease;
+  }
+
+  .btn-custom:hover {
+    background-color: #014f40;
+    color: white;
+    transform: scale(1.08);
+    box-shadow: 0 8px 20px rgba(0, 124, 114, 0.4);
+  }
+
+  .btn-hire {
+    background-color: #2e2e2e;
+    color: #fff;
+    transition: 0.3s ease;
+  }
+  .btn-hire:hover {
+    background-color: #000;
+    color: #fff;
+    transform: scale(1.05);
   }
 
   .text-custom {
@@ -17,10 +36,12 @@
 
   #home img {
     box-shadow: 0 0 25px #016a59;
+    transition: all 0.5s ease;
   }
 
   #home img:hover {
-    box-shadow: 0 0 35px #01231d;
+    box-shadow: 0 0 45px #01231d;
+    transform: scale(1.05);
   }
 
   .social-media a {
@@ -34,12 +55,14 @@
     margin-right: 10px;
     font-size: 20px;
     color: #0a8f6a;
-    transition: all 0.3s ease;
+    transition: all 0.4s ease;
   }
 
   .social-media a:hover {
     background-color: #0a8f6a;
     color: #fff;
+    transform: translateY(-6px) scale(1.15);
+    box-shadow: 0 10px 25px rgba(10, 143, 106, 0.4);
   }
 
   .btn {
@@ -77,6 +100,7 @@
     border-radius: 30px;
     font-weight: 600;
   }
+
   .btn-my-1 {
     background-color: rgb(84, 84, 84);
     color: white;
@@ -89,31 +113,32 @@
     background-color: #00685e;
     color: #fff;
   }
+
   .btn-my-1:hover {
     background-color: rgb(67, 67, 67);
     color: #fff;
   }
+
   .card {
     overflow: hidden;
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
-}
+    transition: all 0.5s ease;
+    border-radius: 20px;
+  }
 
-.card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 0 35px rgba(0, 0, 0, 0.2);
-}
-.card img {
-    transition: transform 0.5s ease;
-}
+  .card:hover {
+    transform: translateY(-12px) scale(1.03);
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.25);
+  }
 
-.card:hover img {
-    transform: scale(1.1);
-}
-.btn-custom {
-    transition: all 0.3s ease;
-}
+  .card img {
+    transition: transform 0.6s ease;
+  }
 
-.card:hover .btn-custom {
+  .card:hover img {
+    transform: scale(1.12);
+  }
+
+  .card:hover .btn-custom {
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
-}
+  }
