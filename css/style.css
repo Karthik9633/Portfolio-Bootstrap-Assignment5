@@ -145,9 +145,10 @@ form {
 }
 
 #home {
-  background-image: url("../images/Project/BACK.png");
-  background-size: cover;
-  height: 100vh;
+    background-image: url("../images/Project/BACK.png");
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 80px; 
 }
 
 .home-content h1 {
@@ -162,4 +163,7 @@ form {
 .about-content h1 {
   font-size: 60px;
   line-height: 1.3;
+}
+#project {
+  scroll-margin-top:20px;
 }
