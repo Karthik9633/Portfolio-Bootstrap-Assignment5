@@ -24,6 +24,7 @@
     color: #fff;
     transition: 0.3s ease;
   }
+
   .btn-hire:hover {
     background-color: #000;
     color: #fff;
@@ -141,4 +142,24 @@
   .card:hover .btn-custom {
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+  }
+
+  #home {
+    background-image:url("/images/Project/back.png");
+      background-size: cover;
+       height: 100vh;
+  }
+
+  .home-content h1{
+    font-size: 50px;
+    line-height: 1.1;
+  }
+
+  .home-content h3{
+    font-size: 32px;
+  }
+   
+  .about-content h1{
+    font-size: 60px;
+    line-height: 1.3;
   }
